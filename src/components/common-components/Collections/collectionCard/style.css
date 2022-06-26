@@ -1,0 +1,41 @@
+.collection-each-card{
+    position: relative;
+    height: 320px;
+    width: 260px;
+    border-radius: 14px;
+    letter-spacing: 1.2px;
+}
+.collection-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+.collection-name{
+    position: absolute;
+    bottom: 35px;
+    margin-bottom: 5px;
+    left: 15px;
+    color: var(--bg-white);
+}
+.collection-place{
+    /* position: absolute;
+    bottom: 15px;
+    left: 15px; */
+    /* color: var(--bg-white); */
+}
+.place-with-caret{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: var(--bg-white);
+}
+.bg-gradient{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import Tabs from '../Tab-options'
+
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
           <div className='left-header-search flex-row'>
 
             <div className='your-location flex-row'>
-              <i class="fas fa-map-marker-alt"></i>
+              <i className="fas fa-map-marker-alt"></i>
               <span>Mirania Gardens, East Top</span>
               <i className="fas fa-caret-down"></i>
             </div>
@@ -36,7 +36,7 @@ const Header = () => {
 
         </div>
       </div>
-      <Tabs />
+
     </>
   )
 }

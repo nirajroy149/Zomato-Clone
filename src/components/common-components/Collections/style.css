@@ -1,0 +1,18 @@
+.collection-whole-container{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.about-collection{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.about-collection-title{
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: var(--collection-title);
+}
+.with-caret{
+    color: var(--zomato-red);
+    letter-spacing: 0.2px;
+
+}

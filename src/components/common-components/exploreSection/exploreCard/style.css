@@ -1,0 +1,123 @@
+.exploreCard {
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    background-color: var(--bg-white);
+    transition: all 0.3s ease-in-out;
+}
+.exploreCard:hover{
+    border-color: var(--seprator-color);
+    box-shadow: rgb(28 28 28 / 12%) 0px 0.4rem 1.8rem;
+    box-sizing: border-box;
+    transform: scale(1.05);
+}
+
+.explore-img-container {
+    height: 248px;
+    width: 329px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.explore-cover-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.time {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+    padding: 0px 3px 0px 3px;
+    border-radius: 3px;
+    color: rgb(54, 54, 54);
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.pro-off{
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0px 6px 0px 6px;
+    background-color: var(--card-red);
+}
+
+.discount {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0px 6px 0px 6px;
+    background-color: var(--card-blue);
+}
+.name-with-rating{
+    max-width: 329px;
+    padding: 5px;
+    justify-content: space-between;
+}
+.card-restaurent-name{
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.restaurent-rating{
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 4px 0px 4px;
+    background-color: var(--card-green);
+}
+
+.cuisines-with-price{
+    max-width: 329px;
+    padding: 4px;
+    justify-content: space-between;
+    color: var(--tab-title-grey);
+}
+.cuisines-name{
+    max-width: 56%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+/* .approx-price{
+
+} */
+
+.seprator{
+    width: 97%;
+    margin: auto;
+    height: 2px;
+    background-color: var(--seprator-color);
+    margin-top: 10px;
+}
+.bottom-container{
+    margin-top: 10px;
+    max-width: 329px;
+    justify-content: space-between;
+}
+.rising-container{
+    max-width: 85%;
+}
+.rising-img{
+    width: 20px;
+    margin: 0px 10px 0px 5px;
+}
+.rising-text{
+    font-size: 12.5px;
+    color: var(--tab-title-grey);
+}
+.max-safe-img{
+    width: 52px;
+    margin: 0px 5px 0px 10px;
+}

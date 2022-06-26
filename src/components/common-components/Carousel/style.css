@@ -1,0 +1,33 @@
+.each-carousel-container {
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.carousel-img-container {
+    margin: auto;
+    height: 150px;
+    width: 150px; 
+}
+
+.carousel-img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+}
+
+.carousel-name {
+    width: 100%;
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.carousel-time {
+    width: 100%;
+    padding-top: 5px;
+    font-size: 14px;
+}

@@ -1,27 +1,42 @@
-.tabs-conatiner{
-    margin: 20px auto;
-    
+
+.whole-tabs-container{
+    margin-top: 15px;
+    box-shadow: rgb(232 232 232) 0px -0.5px 0px inset;
 }
 
-.tab-button{
-    padding: 10px;
-    background-color: transparent;
-    justify-content:center;
-    border: 0;
-    border-bottom: 10px;
+.tab-inner-container{
+    /* margin-bottom: 10px; */
 }
-.img-div{
-    padding: 20px;
-    border-radius: 100%;
-    margin-right: 15px;
+
+.img-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    justify-content: center;
     background-color: rgb(248, 248, 248);
 }
-button img{
-    width: 32px;  
+
+.tab-img{
+    height: 30px;
+    width: 30px; 
 }
-button.title{
-font-size: 20px;
+
+.tab-title{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--tab-title-grey);
 }
-/* .main-button{
-    border-bottom: 5px solid transparent;
-} */
+
+.tab-options{
+    border-bottom: 2px solid transparent;
+    padding: 10px 10px 14px 10px;
+    width: 170px;
+}
+
+.borderbottom{
+    border-bottom: 2.5px solid var(--tab-border-bottom);
+}
+.borderbottom .active-color{
+    color: var(--zomato-red);
+}

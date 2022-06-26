@@ -1,0 +1,13 @@
+#root{
+    --primary-grey: rgb(207, 207, 207);
+    --zomato-red: rgb(239, 79, 95);
+    --tab-title-grey: rgb(105, 105, 105);
+    --tab-border-bottom: rgb(255, 126, 139);
+    --title-color: rgb(28, 28, 28);
+    --card-blue: rgb(37, 111, 239);
+    --card-red: rgb(217, 38, 98);
+    --card-green: rgb(58, 183, 87);
+    --seprator-color: rgb(232, 232, 232);
+    --bg-white: rgb(255, 255, 255);
+    --collection-title: rgb(54, 54, 54);
+}

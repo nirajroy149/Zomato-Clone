@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-@import "./styles/commonClasses.css";
-@import "./styles/variable.css";
+@import "./components/styles/commonClasses.css";
+@import "./components/styles/variable.css";
 
-*{
-  transition: all 0.3s ease-in-out;
-}
 
 body {
   margin: 0;
