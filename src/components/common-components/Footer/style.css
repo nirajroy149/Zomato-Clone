@@ -1,0 +1,60 @@
+.footer-outer-container{
+    padding: 20px 0 50px 0;
+   
+}
+/* .footer-inner-container{
+    flex-wrap: wrap;
+} */
+
+.footer-logo-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.zomato-footer-logo{
+    max-width: 132px;
+}
+
+.country-container{
+    font-size: 18px;
+    color: var(--tab-title-grey);
+    border: 1px solid var(--primary-grey);
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.footer-list-container{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-items: normal;
+    justify-content: space-between;
+}
+.footer-list-heading{
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.footer-list-container div{
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+.last-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media{
+    font-size: 20px;
+    justify-content: space-between;
+}
+.social-media i{
+    margin: 2px;
+}
+.foot-img{
+    margin-bottom: 10px;
+    width: 120px;
+}
+.foot-img-1{
+    margin-top: 10px;
+}
+

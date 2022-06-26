@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../common-components/Header'
 import Tabs from '../../common-components/Tab-options'
-
+import Footer from '../../common-components/Footer'
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
       >
       Home / India / Kolkata / East Kolkata / <span style={{color: "var(--primary-grey)"}}>East Topsia Restaurants</span></div>
     <Tabs/>
+    <Footer />
     </>
   )
 }
