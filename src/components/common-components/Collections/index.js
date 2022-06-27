@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { Component } from "react";
 import Slider from "react-slick";
-
 import "./style.css"
 import NextArrow from "../NextArrow";
 import PrevArrow from "../PrevArrow";
@@ -12,7 +11,34 @@ const settings = {
     slidesToShow: 4,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />
+    prevArrow: <PrevArrow />,
+    initialSlide: 0,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: false,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 0
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 };
 
 const Collections = ({ list, collectionTitle }) => {

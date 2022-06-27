@@ -66,11 +66,11 @@ const Footer = () => {
           <div className='each-list last-list'>
           <div className='footer-list-heading'>Social Links</div>
             <div className='flex-row social-media'>
-              <i class="fab fa-linkedin"></i>
-              <i class="fab fa-instagram-square"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-youtube"></i>
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-instagram-square"></i>
+              <i className="fab fa-twitter"></i>
+              <i className="fab fa-youtube"></i>
+              <i className="fab fa-facebook"></i>
             </div>
             <img className='foot-img foot-img-1' alt='not found' src='https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png'></img>
             <img className='foot-img' alt='not found' src='https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png'></img>

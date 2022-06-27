@@ -3,6 +3,7 @@
     height: 72px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .zomato-logo{
@@ -23,6 +24,7 @@
 .left-header-search{
     padding-left: 2px;
     height: 100%;
+    flex-wrap: wrap;
     background: rgb(255, 255, 255);
     border-radius: 15px;
     box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
@@ -65,4 +67,21 @@ input[type="text"]{
     width: 2.5rem;
     border-radius: 100%;
     margin-right: 5px;
+}
+
+@media (max-width: 693px){
+    .zomato-logo {
+        height: 2.7rem;
+    }
+    .header{
+        margin-bottom: 70px;
+        justify-content: center;
+        
+    }
+    .title{
+        text-align: center;
+    }
+    .max-width{
+        width: 100%;
+    }
 }
